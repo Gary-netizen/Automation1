@@ -23,5 +23,16 @@ public class testClass {
 	System.out.println("sum of array:"+sum);
 		
 	}
-	
-}
+    
+    @Test(priority=3)
+    
+    public void add() {
+    int x=1;
+    int y=3;
+    int z;
+    z= x+y;
+    System.out.println("sum of no:"+ z);
+    }
+        
+    }
+    
